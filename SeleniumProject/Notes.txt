@@ -1,0 +1,50 @@
+in selenium we have two methods
+
+click() -- if we need to click any button or link
+
+senkeys()-- if we need to write any thinng inside into the text box
+
+
+in selenium we have multiple locators 
+
+id
+name
+
+xpath
+
+
+
+css
+clasanme
+linktext
+
+
+
+purple color - tag Name
+Red Color - Attribute
+Blue Color - Value
+Black Color - Text
+
+
+
+1- //tagname[@attribute= 'value']
+
+
+//textarea[@title='Search']
+
+
+//a[@aria-label='Gmail ']
+
+
+2-  //tagname[text()='text value']
+
+//a[text()='Store']
+
+//a[text()='Sell']
+
+3- (//a[text()='Customer Service'])[1] -- location Wise xpath
+
+ebay and flipkart
+
+
+mousehovering,dragdrop,doubleclick and right will use Actions class
